@@ -30,10 +30,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node dist/index.js",
-    "check-neo": "tsc && node dist/check-neo.js",
     "test": "jest --watch --runInBand",
-    "testCI": "jest --runInBand"
+    "testCI": "jest --runInBand",
+    "publish": "cp .npmignore dist && npm publish"
   },
   "dependencies": {
     "lodash": "^4.17.21"
