@@ -1,6 +1,6 @@
 {
   "name": "@mpapenbr/js-dummy-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just for testing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,12 +8,13 @@
     "type": "git",
     "url": "git@github.com:mpapenbr/playground.git"
   },
-
   "author": {
     "name": "Markus Papenbrock",
     "email": "Markus.Papenbrock@gmail.com"
   },
-  "publishConfig": {"registry": "https://npm.pkg.github.com/mpapenbr"},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mpapenbr"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.22",
