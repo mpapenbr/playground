@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "just for testing",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.d.ts",  
   "repository": {
     "type": "git",
     "url": "git@github.com:mpapenbr/playground.git"
@@ -13,8 +13,7 @@
     "email": "Markus.Papenbrock@gmail.com"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/mpapenbr",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/mpapenbr"    
   },
   "license": "MIT",
   "devDependencies": {
