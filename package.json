@@ -1,6 +1,6 @@
 {
   "name": "@mpapenbr/js-dummy-module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "just for testing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --watch --runInBand",
-    "testCI": "jest --runInBand"
+    "testCI": "jest --runInBand",
+    "preversion": "yarn testCI",
+    "postversion": "git push --tags"
   },
   "dependencies": {
     "lodash": "^4.17.21"
