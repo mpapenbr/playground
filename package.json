@@ -13,7 +13,8 @@
     "email": "Markus.Papenbrock@gmail.com"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/mpapenbr"
+    "registry": "https://npm.pkg.github.com/mpapenbr",
+    "access": "public"
   },
   "license": "MIT",
   "devDependencies": {
