@@ -32,7 +32,7 @@
     "build": "tsc",
     "test": "jest --watch --runInBand",
     "testCI": "jest --runInBand",
-    "publish": "cp .npmignore dist && npm publish"
+    "myPublish": "cp .npmignore dist && npm publish"
   },
   "dependencies": {
     "lodash": "^4.17.21"
