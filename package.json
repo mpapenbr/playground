@@ -31,8 +31,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --watch --runInBand",
-    "testCI": "jest --runInBand",
-    "myPublish": "cp .npmignore dist && npm publish"
+    "testCI": "jest --runInBand"
+    
   },
   "dependencies": {
     "lodash": "^4.17.21"

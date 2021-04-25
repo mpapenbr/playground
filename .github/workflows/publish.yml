@@ -22,6 +22,7 @@ jobs:
       - run: yarn testCI
       - run: yarn build
       # Publish to GitHub Packages
-      - run: yarn myPublish
+      - run: |
+          cp .npmignore dist && npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
