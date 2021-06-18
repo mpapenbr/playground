@@ -1,0 +1,5 @@
+private.tar
+.npmrc
+*.log
+__pycache__
+env
